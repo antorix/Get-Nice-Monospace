@@ -1,6 +1,6 @@
 import os
 def setFont():
-    """Obtain the nicest monotype font present in the Window system folder and return it to use with GUI applications"""
+    """Obtain the nicest monospaced font present in the Window system folder and return it to use with GUI applications"""
     fonts=[]
     if os.name=="nt":
         try:
